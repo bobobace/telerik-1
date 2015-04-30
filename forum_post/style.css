@@ -1,0 +1,28 @@
+body {
+    background: grey;
+}
+h1{
+    color: lightgoldenrodyellow;
+}
+header{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+li > a {
+    text-decoration: none;
+    color: white;
+}
+li:last-of-type{
+    text-decoration: underline;
+}
+.current {
+    background: lightgrey;
+}
+p > a{
+    text-decoration: none;
+    color: black;
+}
+
+
