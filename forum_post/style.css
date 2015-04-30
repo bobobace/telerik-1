@@ -24,5 +24,8 @@ p > a{
     text-decoration: none;
     color: black;
 }
+body > footer:last-of-type{
+    text-align: center;
+}
 
 
