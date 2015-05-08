@@ -1,0 +1,79 @@
+*{
+    font-family:serif ;
+}
+body{
+    background-color: #f1f5f9;
+}
+body fieldset{
+    margin: 5px;
+    height: 80px;
+    width: 330px;
+    border: 1px solid;
+    position: static ;
+    background-color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+body > fieldset{
+    margin-top: 30px;
+}
+
+span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+div.image{
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    width: 150px;
+    height: 70px;
+}
+img{
+    margin: 2px;
+    position: relative;
+    padding: 1px;
+    width: 100px;
+    height: 70px;
+}
+
+div.inside_div{
+
+    position: relative;
+    margin-top:-87px;
+    margin-left: 105px;
+    padding: 10px;
+    font-size: 11px;
+    width: 210px;
+    height: 20px;
+}
+div.buttons{
+    margin-top: 20px;
+    width: 110px;
+    position: relative;
+    margin-left: 210px;
+    height: 30px;
+}
+input{
+    height: 20px;
+}
+
+.add{
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: -27px;
+    width: 30px;
+    position: relative;
+    margin-left: 290px;
+    height: 14px;
+}
+.listen{
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top: -27px;
+    width: 30px;
+    position: relative;
+    margin-left: 229px;
+    height: 14px;
+}
