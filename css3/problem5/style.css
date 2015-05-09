@@ -1,97 +1,103 @@
-
+div.laptopPrice, div.text , label, span{
+    font-family: georgia;
+}
 article{
-    width: 800px;
+    width: 740px;
 }
-fieldset{
-    border-radius: 2%;
-}
-article fieldset header{
+article header{
     text-align: center;
 }
-article fieldset header h2{
+section.main{
+    border: 1px solid black;
+    padding: 5px;
+    height: 480px;
+    width: 505px;
+}
+a{
+    color: #0094ff;
+}
+article header h2{
     display: inline;
 }
-article fieldset hr{
+
+hr{
     height: 1px;
     background-color: black;
 }
 
-img{
-    margin-left:-12px
-}
-div{
-    font-family: georgia;
-}
-main section{
-    padding: 2px;
+/* Left Fieldset positions edit */
+
+section.left{
     float: left;
-    border: 1px solid;
-    width: 513px;
-    height: 477px;
+    width: 280px;
 }
 
-main section fieldset legend {
-    text-align: center;
+section.left fieldset{
+    width: 220px;
 }
 
-main section fieldset {
+section.left fieldset img{
     float: left;
-    border-radius: 0;
-    width: 225px;
 }
 
-main section fieldset div.discSize{
-    position: relative;
-    display: inline;
+section.left fieldset div.laptopPrice{
     float: left;
-    margin-left: 135px;
-    margin-top: -62px;
+    margin-left: 45px;
+    margin-top: 10px;
 }
 
-main section fieldset div.ramSize{
-    position: relative;
-    display: inline;
-    float: left;
-    margin-left: 135px;
-    margin-top: -30px;
-}
-
-main section fieldset div.intelCore{
-    position: relative;
-    display: inline;
-    float: left;
-    margin-left: 135px;
-    margin-top: 3px;
-}
-
-main section fieldset div.laptopPrice{
-    position: relative;
-    display: inline;
-    float: left;
-    margin-left: 34px;
-    margin-top: -18px;
-}
-
-main section.right{
-    padding: 0;
-    border: none;
+section.left fieldset div.text{
     float: right;
-    margin-top: 80px;
-    width: 250px;
-    height: 320px;
+    margin-top: -65px;
 }
 
-input {
-    margin: 40px 25px 30px;
-    width: 183px;
-    margin-top: 20px;
+/* Right Fieldset positions edit */
+section.middle{
+    float: left;
+    width: 250px;
+    margin-left: -25px;
+}
+
+section.middle fieldset{
+    width: 220px;
+}
+
+section.middle fieldset img{
+    float: left;
+}
+
+section.middle fieldset div.laptopPrice{
+    float: left;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+section.middle fieldset div.text{
+    float: right;
+    margin-top: -65px;
+}
+
+/* Inputs, Labels n Span positions */
+
+section.right{
+    margin-right: -20px;
+    float: right;
+    margin-top: -440px;
+}
+
+section.right div{
+    margin: 25px;
+}
+
+section.right input{
+    width: 170px;
+    margin-left: -60px;
 }
 
 label{
-    margin-left: 25px;
-    font-size: 18px;
+    margin: -25px;
 }
+
 span{
-    font-family: georgia;
-    margin-left: 30px;
+    margin-left: 40px;
 }
