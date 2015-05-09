@@ -1,5 +1,9 @@
-body{
+fieldset{
     background-color: #1E3741;
+    border-radius: 2%;
+    padding: 0;
+    margin: 0;
+    width: 700px;
 }
 /* Header Nav positions edit */
 header nav ul{
@@ -7,7 +11,9 @@ header nav ul{
     padding: 0px;
 }
     header nav ul li{
+        float: left ;
         display: inline;
+        border-right: #1E3741;
     }
 
 
@@ -16,7 +22,7 @@ header nav ul li{
     font-size: 15px;
     background-color: #4B5F67;
     padding: 5px 10px;
-    margin: 0px;
+    margin: 1px;
 }
 
 header nav ul li:first-child{
@@ -72,7 +78,6 @@ section nav ul li:last-child{
 section img{
     padding: 16px 0px 0px 0px;
 }
-
 
 /* Отново искам да благодаря на едно от момичетата във форума
 за, това че сподели нейното домашно и ме накара да си подредя кода
