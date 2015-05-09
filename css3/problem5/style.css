@@ -1,0 +1,97 @@
+
+article{
+    width: 800px;
+}
+fieldset{
+    border-radius: 2%;
+}
+article fieldset header{
+    text-align: center;
+}
+article fieldset header h2{
+    display: inline;
+}
+article fieldset hr{
+    height: 1px;
+    background-color: black;
+}
+
+img{
+    margin-left:-12px
+}
+div{
+    font-family: georgia;
+}
+main section{
+    padding: 2px;
+    float: left;
+    border: 1px solid;
+    width: 513px;
+    height: 477px;
+}
+
+main section fieldset legend {
+    text-align: center;
+}
+
+main section fieldset {
+    float: left;
+    border-radius: 0;
+    width: 225px;
+}
+
+main section fieldset div.discSize{
+    position: relative;
+    display: inline;
+    float: left;
+    margin-left: 135px;
+    margin-top: -62px;
+}
+
+main section fieldset div.ramSize{
+    position: relative;
+    display: inline;
+    float: left;
+    margin-left: 135px;
+    margin-top: -30px;
+}
+
+main section fieldset div.intelCore{
+    position: relative;
+    display: inline;
+    float: left;
+    margin-left: 135px;
+    margin-top: 3px;
+}
+
+main section fieldset div.laptopPrice{
+    position: relative;
+    display: inline;
+    float: left;
+    margin-left: 34px;
+    margin-top: -18px;
+}
+
+main section.right{
+    padding: 0;
+    border: none;
+    float: right;
+    margin-top: 80px;
+    width: 250px;
+    height: 320px;
+}
+
+input {
+    margin: 40px 25px 30px;
+    width: 183px;
+    margin-top: 20px;
+}
+
+label{
+    margin-left: 25px;
+    font-size: 18px;
+}
+span{
+    font-family: georgia;
+    margin-left: 30px;
+}
