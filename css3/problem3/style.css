@@ -1,0 +1,84 @@
+@font-face {
+ src: url(http://fonts.googleapis.com/css?family=Poiret+One);
+    font-family: poiret-one;
+}
+
+body{
+    margin: 20px;
+}
+header{
+    border-radius: 20px 20px 0px 0px;
+    width: 620px;
+    height: 55px;
+    background: #8a7e72; /* Old browsers */
+    background: -moz-linear-gradient(top,  #8a7e72 0%, #3c3c3b 2%, #3a3a3a 79%, #383838 91%, #353535 94%, #000000 97%, #000000 100%, #3b3b3b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8a7e72), color-stop(2%,#3c3c3b), color-stop(79%,#3a3a3a), color-stop(91%,#383838), color-stop(94%,#353535), color-stop(97%,#000000), color-stop(100%,#000000), color-stop(100%,#3b3b3b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #8a7e72 0%,#3c3c3b 2%,#3a3a3a 79%,#383838 91%,#353535 94%,#000000 97%,#000000 100%,#3b3b3b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #8a7e72 0%,#3c3c3b 2%,#3a3a3a 79%,#383838 91%,#353535 94%,#000000 97%,#000000 100%,#3b3b3b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #8a7e72 0%,#3c3c3b 2%,#3a3a3a 79%,#383838 91%,#353535 94%,#000000 97%,#000000 100%,#3b3b3b 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #8a7e72 0%,#3c3c3b 2%,#3a3a3a 79%,#383838 91%,#353535 94%,#000000 97%,#000000 100%,#3b3b3b 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a7e72', endColorstr='#3b3b3b',GradientType=0 ); /* IE6-9 */
+    padding: 10px;
+}
+img{
+    float: left;
+    margin-left: 10px;
+}
+header h3{
+    display: inline;
+    float: left;
+    margin-left: 20px;
+    color:white;
+    margin-top: 10px;
+}
+header button {
+    border-color: white;
+    border-radius: 30px;
+    background-image: url("btn.png");
+    width: 56px;
+    height: 28px;
+    float: right;
+    margin: 3px;
+    margin-top: -33px;
+}
+
+header input#nameUser{
+    float: left;
+    margin: 10px;
+    margin-left: 10px;
+}
+
+header input#emailUser{
+    float: right;
+    margin: 10px;
+    margin-right: 70px;
+}
+main{
+    background-color: #383838;
+    width: 640px;
+    height: 240px;
+    border-radius: 0px 0px 20px 20px;
+}
+main h2{
+    float: left;
+    margin-left: 10px;
+    color: gold;
+}
+p{
+
+    font-family: poiret-one;
+    color: grey;
+    float: left;
+    margin-left: 10px;
+    margin-top: -7px;
+    width: 550px;
+    margin-bottom: 5px;
+}
+span{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color:grey;
+}
