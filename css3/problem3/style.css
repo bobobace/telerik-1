@@ -1,84 +1,77 @@
-@font-face {
- src: url(http://fonts.googleapis.com/css?family=Poiret+One);
+@font-face{
+    src: url(http://fonts.googleapis.com/css?family=Poiret+One);
     font-family: poiret-one;
 }
-
 body{
-    margin: 20px;
+    margin: 0;
+    padding: 0;
 }
 header{
-    border-radius: 20px 20px 0px 0px;
-    width: 620px;
+    background: #000000; /* Old browsers */
+    background: -moz-linear-gradient(top,  #000000 0%, #3b3b3b 0%, #3b3b3b 0%, #3b3b3b 79%, #2d2d2d 100%, #1c1b1a 100%, #2d2d2d 101%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(0%,#3b3b3b), color-stop(0%,#3b3b3b), color-stop(79%,#3b3b3b), color-stop(100%,#2d2d2d), color-stop(100%,#1c1b1a), color-stop(101%,#2d2d2d)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #000000 0%,#3b3b3b 0%,#3b3b3b 0%,#3b3b3b 79%,#2d2d2d 100%,#1c1b1a 100%,#2d2d2d 101%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #000000 0%,#3b3b3b 0%,#3b3b3b 0%,#3b3b3b 79%,#2d2d2d 100%,#1c1b1a 100%,#2d2d2d 101%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #000000 0%,#3b3b3b 0%,#3b3b3b 0%,#3b3b3b 79%,#2d2d2d 100%,#1c1b1a 100%,#2d2d2d 101%); /* IE10+ */
+    background: linear-gradient(to bottom,  #000000 0%,#3b3b3b 0%,#3b3b3b 0%,#3b3b3b 79%,#2d2d2d 100%,#1c1b1a 100%,#2d2d2d 101%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#2d2d2d',GradientType=0 ); /* IE6-9 */
+    border-radius: 10px 10px 0 0;
+    border: 1px solid black;
+    width: 520px;
     height: 55px;
-    background: #8a7e72; /* Old browsers */
-    background: -moz-linear-gradient(top,  #8a7e72 0%, #3c3c3b 2%, #3a3a3a 79%, #383838 91%, #353535 94%, #000000 97%, #000000 100%, #3b3b3b 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8a7e72), color-stop(2%,#3c3c3b), color-stop(79%,#3a3a3a), color-stop(91%,#383838), color-stop(94%,#353535), color-stop(97%,#000000), color-stop(100%,#000000), color-stop(100%,#3b3b3b)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #8a7e72 0%,#3c3c3b 2%,#3a3a3a 79%,#383838 91%,#353535 94%,#000000 97%,#000000 100%,#3b3b3b 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #8a7e72 0%,#3c3c3b 2%,#3a3a3a 79%,#383838 91%,#353535 94%,#000000 97%,#000000 100%,#3b3b3b 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #8a7e72 0%,#3c3c3b 2%,#3a3a3a 79%,#383838 91%,#353535 94%,#000000 97%,#000000 100%,#3b3b3b 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #8a7e72 0%,#3c3c3b 2%,#3a3a3a 79%,#383838 91%,#353535 94%,#000000 97%,#000000 100%,#3b3b3b 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a7e72', endColorstr='#3b3b3b',GradientType=0 ); /* IE6-9 */
-    padding: 10px;
+    padding: 5px;
 }
-img{
+header img{
     float: left;
-    margin-left: 10px;
 }
-header h3{
-    display: inline;
-    float: left;
-    margin-left: 20px;
-    color:white;
-    margin-top: 10px;
-}
-header button {
-    border-color: white;
-    border-radius: 30px;
+header button{
+    float: right;
     background-image: url("btn.png");
-    width: 56px;
-    height: 28px;
-    float: right;
-    margin: 3px;
-    margin-top: -33px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    margin-top: 12px;
+}
+header h3 {
+    display: inline-block;
+    color: white;
+    margin: 0px 10px 0px 20px;
+    padding: 9px 0px;
 }
 
-header input#nameUser{
-    float: left;
-    margin: 10px;
-    margin-left: 10px;
+header input{
+    margin: 0px 5px 0px 0px;
+    width: 23%;
 }
 
-header input#emailUser{
-    float: right;
-    margin: 10px;
-    margin-right: 70px;
-}
+
 main{
-    background-color: #383838;
-    width: 640px;
-    height: 240px;
-    border-radius: 0px 0px 20px 20px;
+    margin: 0px -10px 0px 0px;
+    background-color: #3B3B3B;
+    width: 512px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
 main h2{
-    float: left;
-    margin-left: 10px;
-    color: gold;
+    margin: 5px 5px 0px 0px;
+    color: #FAD417;
 }
-p{
 
+p{
     font-family: poiret-one;
-    color: grey;
-    float: left;
-    margin-left: 10px;
-    margin-top: -7px;
-    width: 550px;
-    margin-bottom: 5px;
-}
-span{
-    color: white;
+    margin: 10px 0px 0px 0px;
+    color: #A3A3A3;
+    width: 500px;
 }
 
 a{
     text-decoration: none;
-    color:grey;
+    color: #A3A3A3;
 }
+
+span{
+    color: white;
+}
+
+/* Опитах се да го направя Pixel Perfect. Мъчих се 3 часа и се отказах.  */
